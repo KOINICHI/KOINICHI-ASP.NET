@@ -1,0 +1,9 @@
+*.config
+App_Data/*
+bin/*
+Content/themes*
+obj/*
+!Properties/AssemblyInfo.cs
+!Scripts/jquery-2.0.3.min.js
+!Scripts/twitter.js
+!Scripts/koinichi.js

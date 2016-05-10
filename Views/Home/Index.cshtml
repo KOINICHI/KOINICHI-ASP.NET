@@ -1,0 +1,23 @@
+﻿@model MvcApplication1.Models.TweetsDB
+
+@{
+    ViewBag.Title = "Home Page";
+    var Date = Model.Date.ToString("yyyy-MM-dd HH:mm:ss");
+}
+
+@Scripts.Render("~/Scripts/jquery-2.0.3.min.js")
+
+@Styles.Render("~/Content/koinichi.css")
+@Scripts.Render("~/Scripts/koinichi.js")
+
+@Styles.Render("~/Content/twitter.css")
+@Scripts.Render("~/Scripts/twitter.js")
+
+<div id="twitter">
+    <div class="tweet-box">
+        @Html.DisplayFor(model => model.Tweet)
+        <div class="datetime"> @Date </div>
+    </div>
+</div>
+<div id="world">
+</div>

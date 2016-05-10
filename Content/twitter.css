@@ -1,0 +1,18 @@
+﻿#twitter {
+    position: absolute;
+    bottom: 500px;
+    left: calc(50% - 200px);
+}
+
+.tweet-box {
+    width: 400px;
+    text-align:center;
+    color: #fff;
+    font-family: 'Malgun Gothic';
+    font-size: 14pt;
+}
+.datetime {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 12pt;
+}
